@@ -1,0 +1,37 @@
+{
+  "name": "pi-fabric-profile",
+  "version": "0.1.0",
+  "description": "Deterministic operational profile switcher (Autopilot vs Surgical) and empirical verification harness for Pi-Fabric",
+  "type": "module",
+  "main": "./index.ts",
+  "scripts": {
+    "test": "node test/verify.mjs"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi-fabric",
+    "security",
+    "sdd",
+    "orchestration",
+    "quickjs"
+  ],
+  "author": "r1cc4rd0m4zz4",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r1cc4rd0m4zz4/pi-fabric-profile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r1cc4rd0m4zz4/pi-fabric-profile/issues"
+  },
+  "homepage": "https://github.com/r1cc4rd0m4zz4/pi-fabric-profile#readme",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.80.0"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
